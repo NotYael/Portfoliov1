@@ -45,5 +45,29 @@ h1 {
 }
 
 #about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: scroll;
+}
+
+#project-grid {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 35rem;
+  height: 40rem;
+  margin-right: 5rem;
 }
