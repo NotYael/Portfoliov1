@@ -57,14 +57,7 @@ h1 {
   align-items: center;
   height: 100vh;
   width: 80%;
-  overflow-x: auto; /* Allow horizontal scrolling */
-  overflow-y: hidden; /* Prevent vertical scrolling */
-  scroll-snap-type: x mandatory; /* Smooth scrolling */
-  scroll-behavior: smooth; /* Smooth scroll behavior */
-}
-
-#projects::-webkit-scrollbar {
-  display: none; /* Hide scrollbar */
+  overflow: scroll;
 }
 
 #project-grid {
