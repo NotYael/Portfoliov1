@@ -6,7 +6,9 @@ h1 {
   max-width: max-content;
   border-radius: 30px;
   background-color: #fff;
-  border: 1.5px solid #0c4894;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: #0c4894;
 }
 
 #cover {
