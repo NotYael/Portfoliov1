@@ -1,0 +1,35 @@
+.nav-bar {
+  position: sticky;
+  top: 0;
+}
+
+#cover {
+  background-color: #0c4894;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  height: 500px;
+  width: 600px;
+}
+
+#intro h1 {
+  font-size: 11em;
+  color: #fff;
+  text-align: center;
+  font-family: "League Spartan";
+}
+
+.justify-center {
+  display: flex;
+  justify-content: space-evenly;
+}
