@@ -56,14 +56,21 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  overflow: scroll;
+  width: 80%;
+  overflow-x: auto; /* Allow horizontal scrolling */
+  overflow-y: hidden; /* Prevent vertical scrolling */
+  scroll-snap-type: x mandatory; /* Smooth scrolling */
+  scroll-behavior: smooth; /* Smooth scroll behavior */
+}
+
+#projects::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
 }
 
 #project-grid {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .card {
