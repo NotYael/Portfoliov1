@@ -1,6 +1,16 @@
+h1 {
+  margin: 0;
+}
+
 .nav-bar {
   position: sticky;
   top: 0;
+}
+
+.container {
+  max-width: max-content;
+  border-radius: 30px;
+  background-color: #fff;
 }
 
 #cover {
@@ -18,8 +28,8 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 20px;
-  height: 500px;
-  width: 600px;
+  height: 400px;
+  width: 500px;
 }
 
 #intro h1 {
@@ -32,4 +42,8 @@
 .justify-center {
   display: flex;
   justify-content: space-evenly;
+}
+
+#about {
+  height: 100vh;
 }
