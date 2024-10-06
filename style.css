@@ -88,3 +88,33 @@ h1 {
   width: 40rem;
   height: 45rem;
 }
+
+#contact-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-me-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.contact-me-text {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soc-med-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.soc-med-icon img {
+  padding: 20px;
+}
